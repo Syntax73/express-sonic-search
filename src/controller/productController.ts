@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { Product } from "../entity/Product";
-import { sonicIngest, sonicSearch } from "../sonic";
+import { sonicIngest, sonicSearch } from "../services/sonic";
 
 export function productContoller() {
   const ingest = sonicIngest();
